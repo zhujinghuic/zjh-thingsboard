@@ -1,0 +1,40 @@
+{
+    "holdingRegister":[
+        {
+            "address":5001,
+            "param":"DO1开闸门",
+            "value":"FF00"
+        },
+        {
+            "address":5002,
+            "param":"DO1开闸门取消",
+            "value":"FF00"
+        },
+        {
+            "address":5003,
+            "param":"DO2关闸门",
+            "value":"FF00"
+        },
+        {
+            "address":5004,
+            "param":"DO2关闸门取消",
+            "value":"FF00"
+        },
+        {
+            "address":5005,
+            "param":"DO3停闸门",
+            "value":"FF00"
+        },
+        {
+            "address":5006,
+            "param":"DO3停闸门取消",
+            "value":"FF00"
+        },
+        {
+            "address":5007,
+            "param":"拍照",
+            "value":"FF00"
+        }
+    ]
+
+}

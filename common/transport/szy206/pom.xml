@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.thingsboard.common</groupId>
+        <version>3.3.4.1-CVE22965</version>
+        <artifactId>transport</artifactId>
+    </parent>
+    <groupId>org.thingsboard.common.transport</groupId>
+    <artifactId>szy206</artifactId>
+    <packaging>jar</packaging>
+
+    <name>Thingsboard MQTT Transport Common</name>
+    <url>https://thingsboard.io</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <main.dir>${basedir}/../../..</main.dir>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.thingsboard.common.transport</groupId>
+            <artifactId>transport-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.snmp4j</groupId>
+            <artifactId>snmp4j</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.snmp4j</groupId>
+            <artifactId>snmp4j-agent</artifactId>
+            <version>3.3.6</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
